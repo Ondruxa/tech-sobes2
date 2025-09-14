@@ -1,0 +1,10 @@
+//…
+String[] arrayString = {str1, str2, str3, str1}
+
+LinkedHashSet<String> uniqueString = new LinkedHashSet<>();
+for(String s : arrayString)
+uniqueString.add(s);
+
+StringBuilder result = new StringBuilder();
+for(String s: uniqueString)
+result.append(s); 
